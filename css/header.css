@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: QTCaslanOpen;
+    src: url("../assets/fonts/QTCaslanOpen.otf") format("opentype");
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -30,7 +35,7 @@ header > h1, h2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 2em;
+    gap: 1em;
 }
 
 #nameplate {
@@ -41,6 +46,8 @@ header > h1, h2 {
 #nameplate > h1 {
     margin: 0;
     font-weight: normal;
+    font-family: QTCaslanOpen;
+    font-size: 2.5em;
 }
 
 #nameplate-link, #nameplate-link:link, #nameplate-link:hover, #nameplate-link:visited {
@@ -52,6 +59,6 @@ header > h1, h2 {
     text-decoration: underline;
 }
 
-#linkedin > a, #twitter > a {
+#linkedin > a, #twitter > a, #orcid > a {
     justify-content: right;
 }

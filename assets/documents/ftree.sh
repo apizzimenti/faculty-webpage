@@ -9,6 +9,6 @@ unset IFS
 for path in "${paths[@]}"; do
     cd "$path"
     tree -H "." -R --noreport --dirsfirst --charset utf-8 -o index.html
-    cd "/Users/apizzimenti/Dropbox/School/GMU/webpages/webpage/assets/documents"
+    cd "/Users/apizzimenti/Dropbox/School/GMU/webpages/personal/assets/documents"
 done
 
