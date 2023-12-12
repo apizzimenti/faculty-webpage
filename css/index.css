@@ -6,10 +6,35 @@
 @import "contact.css";
 @import "teaching.css";
 
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../assets/fonts/CormorantGaramond-Regular.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../assets/fonts/CormorantGaramond-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../assets/fonts/CormorantGaramond-Italic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../assets/fonts/CormorantGaramond-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
 body {
     background-color: white;
     color: black;
-    font-family: "EB Garamond";     /* This font is awesome. */
+    font-family: "Cormorant Garamond";     /* This font is awesome. */
     font-size: 110%;                /* Make content more readable. */
 
     overflow-y: scroll;             /* Ignore the width of the scrollbar. */
