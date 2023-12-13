@@ -1,48 +1,30 @@
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "fonts.css";
 @import "header.css";
 @import "flex.css";
 @import "research.css";
 @import "contact.css";
 @import "teaching.css";
-
-@font-face {
-    font-family: "Cormorant Garamond";
-    src: url("../assets/fonts/CormorantGaramond-Regular.ttf");
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Cormorant Garamond";
-    src: url("../assets/fonts/CormorantGaramond-Bold.ttf");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Cormorant Garamond";
-    src: url("../assets/fonts/CormorantGaramond-Italic.ttf");
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Cormorant Garamond";
-    src: url("../assets/fonts/CormorantGaramond-BoldItalic.ttf");
-    font-weight: bold;
-    font-style: italic;
-}
+@import "blog.css";
 
 body {
     background-color: white;
     color: black;
     font-family: "Cormorant Garamond";     /* This font is awesome. */
-    font-size: 110%;                /* Make content more readable. */
+    font-size: 110%;
 
     overflow-y: scroll;             /* Ignore the width of the scrollbar. */
 }
 
+code {
+    font-size: 0.9em;
+    background-color: #E8E8E8;
+    padding: 1pt 2pt;
+}
+
 #wrapper {
     margin: 5vh auto;
-    max-width: 650px;
+    max-width: 550px;
     min-width: 400px;
 }
 
@@ -52,6 +34,7 @@ body {
     flex-direction: column;
     margin: auto;
     text-align: justify;
+    word-spacing: -1px;
 
     visibility: hidden;
 }

@@ -1,8 +1,5 @@
 
-@font-face {
-    font-family: QTCaslanOpen;
-    src: url("../assets/fonts/QTCaslanOpen.otf") format("opentype");
-}
+@import "fonts.css";
 
 header {
     display: flex;
@@ -17,6 +14,13 @@ header > .row.item {
     align-items: center;
 }
 
+.sep {
+    margin: 0;
+    padding: 0;
+    font-size: 110%;
+    opacity: 25%;
+}
+
 .nav-link, .nav-link:link, .nav-link:hover, .nav-link:visited {
     color: black;
     text-decoration: none;
@@ -26,7 +30,7 @@ header > .row.item {
     text-decoration: underline;
 }
 
-header > h1, h2 {
+header h1, header h2, header h3 {
     margin: 0;
     font-weight: normal;
 }
